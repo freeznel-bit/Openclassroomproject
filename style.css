@@ -1,0 +1,63 @@
+.matching, .message, .profil, .offres{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 77, 77);
+}
+.matching svg, .message svg, .profil svg, .offres svg{
+    width: 200px;
+    height: 70px;
+    gap: 35px;
+}
+.matching:hover, .message:hover, .profil:hover, .offres:hover{
+    transform: scale(1.05);
+}
+.matching a, .message a, .profil a, .offres a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.dashboard{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: flex;
+   text-align: center;
+}
+.statistiques .comp_lac{
+    text-align: left;
+    display: inline-block;
+    padding: 20px;
+    width: 400px;
+}
+.statistiques{
+    text-align: center;
+    margin: 60px auto;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 500px;
+    background-color: rgb(12, 77, 77);
+    text-decoration: black;
+}
+footer{
+    margin-left: 20px;
+    padding: 2px;
+}
+footer p a{
+    text-decoration: none;
+    color: blue;
+}
