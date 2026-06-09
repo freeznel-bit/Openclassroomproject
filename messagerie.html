@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesagerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <aside class="chat-sidebar">
+            <h3>Mes Conversations</h3>
+                <div class="conversations-list" id="conversations-list"></div>
+        </aside>
+
+        <main class="chat-window">
+            <header class="chat-header">
+                <h3 id="current-chat-user">Sélectionnez une conversation</h3>
+            </header>
+
+            <div class="chat-messages" id="chat-messages"></div>
+
+
+            <form class="chat-area" id="chat-form">
+                <input type="text" id="message-input" placeholder="Écrivez votre message..." required>
+                <button type="submit" class="btn-send">Envoyer</button>
+            </form>
+            <input type="text">
+        </main>
+    </div>
+</body>
+</html>
